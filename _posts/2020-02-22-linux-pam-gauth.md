@@ -1,6 +1,6 @@
 ---
+layout: post
 title: "provisioning google authenticator pam config updates via ansible"
-date: 2020-02-22T02:17:20Z
 ---
 
 Often, systems administrators use Linux as their underlying host for their work host/VM/VDI sessions. To protect such assets from unauthorized access from externalities such as red team operators, one could harden their host by adding another authentication factor such as [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm)/[HOTP](https://en.wikipedia.org/wiki/HMAC-based_One-time_Password_algorithm) soft tokens in addition to the default Unix username/password combination. Google Authenticator works great as another factor and even has a [compatible PAM (pluggable authentication module)](https://github.com/google/google-authenticator-libpam) ready for consumption.
