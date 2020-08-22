@@ -6,7 +6,7 @@ relative_permalinks: false
 
 # Setup
 title:               jdnlab
-tagline:             root of jdnlab blog
+tagline:             personal blog of jdaniel
 url:                 https://blog.jdnlab.com
 paginate:            1
 baseurl:             ""
@@ -21,7 +21,7 @@ sass:
 # About/contact
 author:
   name:              jdaniel
-  url:               https://twitter.com/jdaniel
+  url:               https://twitter.com/jdnlabs
   email:             jdaniel@jdnlab.com
 
 # Custom vars
